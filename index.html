@@ -8,20 +8,36 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+		
 		<link rel="stylesheet" href="styles.css" />
+		
 	</head>
 	<body>
+		
+
 		<div class="contenedor">
+			<button class="switch" id="switch">
+				<span class="fa-solid fa-sun"> </span>
+				<span class="fa-solid fa-moon"> </span>
+			</button>
 			<form action="" id="formulario" class="formulario">
-				<input type="text" id="url" placeholder="Escribe la URL" />
+				<input type="text" id="url" placeholder="Escribe la URL completa" />
 				<button class="btn">Generar QR</button>
 			</form>
-
-			<div id="contenedorQR" class="contenedorQR"></div>
+		
+			
+			<div id="contenedorQR" class="contenedorQR" onclick="irALaPagina()"></div>
+		
+			<button class="btn" onclick="irALaPagina()">Ir a la página</button>
+		
 		</div>
-	</body>
+	
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" 
     integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" 
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="app.js"></script>
+	<script src="https://kit.fontawesome.com/3e96da98fd.js" crossorigin="anonymous"></script>
+
+</body>
 </html>
