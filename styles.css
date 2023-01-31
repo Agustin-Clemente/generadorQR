@@ -98,7 +98,6 @@ body.dark .contenedorQR {
 .btn {
 	border: 2px solid;
 	border-color: black;
-	margin-bottom: 26px;
 	color: black;
 	border-radius: 5px;
 	width: 40%;
@@ -111,7 +110,6 @@ body.dark .contenedorQR {
 body.dark .btn{
 	border: 2px solid;
 	border-color: aqua;
-	margin-bottom: 26px;
 	color: #1cecec;
 	background-color: black;
 }
@@ -121,7 +119,7 @@ body.dark .btn{
 }
 
 body.dark .btn:hover {
-	background: #443c5b;
+	background: #2d2d2d;
 }
 
 .switch {
